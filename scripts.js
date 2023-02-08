@@ -120,16 +120,16 @@
 // minhaLista("Bruno", "João", "Gabriel", "Klayvert");
 
 
-function cadastrar(usuarios, ...novosUsuarios) {
-    let totalUsuarios = [
-        ...usuarios,
-        ...novosUsuarios
-    ];
+// function cadastrar(usuarios, ...novosUsuarios) {
+//     let totalUsuarios = [
+//         ...usuarios,
+//         ...novosUsuarios
+//     ];
 
-    return console.log(totalUsuarios)
+//     return console.log(totalUsuarios)
 
-}
+// }
 
-let usuarios = ["Bruno", "Joao"];
+// let usuarios = ["Bruno", "Joao"];
 
-let novosUsuarios = cadastrar(usuarios, "Henrique", "Lucas");
+// let novosUsuarios = cadastrar(usuarios, "Henrique", "Lucas");
