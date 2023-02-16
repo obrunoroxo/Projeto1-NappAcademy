@@ -41,13 +41,13 @@ prevNextIcon.forEach(icon => {
     icon.addEventListener("click", () =>{ // adding click event on both icons
         // if clicked icon is previous icon then decrement current month by 1 else increment it by 1
         if (icon.id === "next") {
-            currMonth = currMonth + 1
-            if (currMonth > 0){
+            currMonth += 1
+            if (currMonth > 11){
                 currYear += 1
                 currMonth = 0
             }
         } else {
-            currMonth = currMonth -1
+            currMonth -= 1
             if (currMonth < 0){
                 currYear -= 1
                 currMonth = 11
